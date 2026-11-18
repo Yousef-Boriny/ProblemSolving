@@ -1,3 +1,5 @@
+import secondTen.WordCapitalization;
+
 public class Main {
     public static void main(String[] args) {
         Watermelon watermelon = new Watermelon();
@@ -10,7 +12,11 @@ public class Main {
         PetyaAndStrings petyaAndStrings = new PetyaAndStrings();
         BoyOrGirl boyOrGirl = new BoyOrGirl();
         HelpfulMaths helpfulMaths = new HelpfulMaths();
+        //-----------------------------------
+        WordCapitalization wordCapitalization = new WordCapitalization();
 
+
+        wordCapitalization.capitalize();
 
     }
 }
