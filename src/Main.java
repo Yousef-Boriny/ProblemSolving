@@ -1,3 +1,4 @@
+import secondTen.BearAndBigBrother;
 import secondTen.WordCapitalization;
 
 public class Main {
@@ -14,9 +15,10 @@ public class Main {
         HelpfulMaths helpfulMaths = new HelpfulMaths();
         //-----------------------------------
         WordCapitalization wordCapitalization = new WordCapitalization();
+        BearAndBigBrother bearAndBigBrother = new BearAndBigBrother();
 
 
-        wordCapitalization.capitalize();
+        System.out.println(bearAndBigBrother.YearsWeight());
 
     }
 }
